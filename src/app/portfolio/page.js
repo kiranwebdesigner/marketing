@@ -51,7 +51,7 @@ export default function PortfolioPage() {
         </h1>
         <p className="text-lg md:text-xl text-black max-w-3xl mx-auto leading-relaxed">
           Explore my complete digital marketing work including Facebook Ads campaigns, 
-          high-performing social media content, creative design projects, SEO results, website designing, and video ads.
+          high-performing social media content, creative design projects,  website designing.
         </p>
       </header>
 
@@ -91,32 +91,26 @@ export default function PortfolioPage() {
 
 
 
-{/* CTA */}
-    
-    <div className="mt-16 text-center  bg-gradient-to-r from-[#050000] to-[#1da1f2] text-white py-12 px-6 rounded-2xl shadow-lg">
-  <h3 className="text-2xl md:text-3xl font-bold mb-4 text-[#1da1f2]">
-    Want Engaging Content?
-  </h3>
-  <p className="text-white/80 mb-6 max-w-xl mx-auto">
-    We create visually appealing and high-performing social media content tailored to your brand.
+{/* ================= LINKEDIN CTA ================= */}
+<section className="mt-16 mx-4 sm:mx-6 md:mx-16 bg-gradient-to-r from-[#050000] to-[#1da1f2] rounded-3xl py-12 px-6 text-center shadow-lg">
+  <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
+    Ready to Boost Your Social Media Results?
+  </h2>
+  <p className="text-lg md:text-xl text-gray-100 mb-8 max-w-3xl mx-auto leading-relaxed">
+    Connect with a professional digital marketing expert on LinkedIn and get a personalized strategy to grow your engagement, generate leads, and maximize ROI across all platforms.
   </p>
 
-  {/* Optional LinkedIn CTA */}
-  <div className="mt-8">
-    <a
-      href="https://www.linkedin.com/in/digital-marketing-manager-expert"
-      target="_blank"
-      rel="noopener noreferrer"
-      className="inline-block bg-[#1da1f2] text-black font-semibold px-8 py-4 rounded-xl shadow-md hover:bg-[#0d8ddb] transition"
-    >
-      Contact Me on LinkedIn
-    </a>
-  </div>
+  <a
+    href="https://www.linkedin.com/in/digital-marketing-manager-expert"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="inline-block bg-white text-blue-600 font-semibold px-8 py-4 md:px-12 md:py-5 rounded-xl shadow-lg hover:shadow-xl hover:scale-105 transition-transform duration-300"
+  >
+     Contact Me on LinkedIn
+  </a>
+</section>
 
-  
 
-  
-</div>
 
 
 

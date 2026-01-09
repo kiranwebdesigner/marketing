@@ -14,13 +14,13 @@ export default function HomePage() {
     <main className="bg-white text-gray-900">
 
       {/* ================= HERO SECTION ================= */}
-      <section className="bg-gray-950 text-white">
+      <section className="bg-gradient-to-r from-[#050000] to-[#1da1f2] text-white">
         <div className="max-w-7xl mx-auto px-6 py-24 text-center">
           <h1 className="text-4xl md:text-6xl font-bold leading-tight mb-6">
             Social Media Marketing Services That Drive Real Growth
           </h1>
 
-          <p className="text-lg md:text-xl text-gray-300 max-w-3xl mx-auto mb-10">
+          <p className="text-lg md:text-xl text-white  max-w-3xl mx-auto mb-10">
             We help businesses increase <strong>brand awareness</strong>, generate{" "}
             <strong>qualified leads</strong>, and boost <strong>sales</strong>{" "}
             with data-driven social media strategies.

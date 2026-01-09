@@ -142,6 +142,184 @@ export default function HomePage() {
         </div>
       </section>
 
+{/* ================= WHY CHOOSE US SECTION ================= */}
+<section className="py-20 bg-gray-50">
+  <div className="max-w-7xl mx-auto px-6 text-center">
+    <h2 className="text-3xl md:text-4xl font-bold mb-12">
+      3 Reasons To Choose Us
+    </h2>
+
+    <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+      {/* Card 1 */}
+      <div className="bg-white rounded-2xl shadow-md hover:shadow-xl transition p-8 text-center flex flex-col items-center">
+        <div className="bg-green-100 p-4 rounded-full mb-6">
+          <svg
+            className="w-8 h-8 text-green-600"
+            fill="none"
+            stroke="currentColor"
+            strokeWidth="2"
+            viewBox="0 0 24 24"
+          >
+            <path d="M18 8a6 6 0 11-12 0 6 6 0 0112 0z" />
+            <path d="M12 14v7" />
+            <path d="M9 21h6" />
+          </svg>
+        </div>
+        <h3 className="text-xl font-semibold mb-3">24/7 Support</h3>
+        <p className="text-gray-600 mb-4">
+          Our team is available anytime to solve your queries and ensure smooth marketing campaigns.
+        </p>
+        <a href="/contact" className="text-blue-600 font-semibold hover:underline">
+          Read More →
+        </a>
+      </div>
+
+      {/* Card 2 */}
+      <div className="bg-white rounded-2xl shadow-md hover:shadow-xl transition p-8 text-center flex flex-col items-center">
+        <div className="bg-green-100 p-4 rounded-full mb-6">
+          <svg
+            className="w-8 h-8 text-green-600"
+            fill="none"
+            stroke="currentColor"
+            strokeWidth="2"
+            viewBox="0 0 24 24"
+          >
+            <path d="M12 8c2.21 0 4-1.79 4-4S14.21 0 12 0 8 1.79 8 4s1.79 4 4 4z" />
+            <path d="M12 12v8" />
+          </svg>
+        </div>
+        <h3 className="text-xl font-semibold mb-3">Expert Guidance</h3>
+        <p className="text-gray-600 mb-4">
+          Our professionals create personalized strategies for every client to maximize results.
+        </p>
+        <a href="/services" className="text-blue-600 font-semibold hover:underline">
+          Read More →
+        </a>
+      </div>
+
+      {/* Card 3 */}
+      <div className="bg-white rounded-2xl shadow-md hover:shadow-xl transition p-8 text-center flex flex-col items-center">
+        <div className="bg-green-100 p-4 rounded-full mb-6">
+          <svg
+            className="w-8 h-8 text-green-600"
+            fill="none"
+            stroke="currentColor"
+            strokeWidth="2"
+            viewBox="0 0 24 24"
+          >
+            <path d="M3 7h18M3 12h18M3 17h18" />
+          </svg>
+        </div>
+        <h3 className="text-xl font-semibold mb-3">Best Courses</h3>
+        <p className="text-gray-600 mb-4">
+          Learn actionable marketing strategies from real experts to grow your business fast.
+        </p>
+        <a href="/courses" className="text-blue-600 font-semibold hover:underline">
+          Read More →
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+{/* ================= WHY CHOOSE US SECTION ================= */}
+<section className="py-20 bg-gray-50">
+  <div className="max-w-7xl mx-auto px-6 text-center">
+    <h2 className="text-3xl md:text-4xl font-bold mb-14">
+      3 Reasons To Choose Us
+    </h2>
+
+    <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+      {/* Card 1 */}
+      <div className="relative bg-white rounded-2xl shadow-lg p-8 flex flex-col items-start hover:shadow-xl transition">
+        {/* Top-left icon */}
+        <div className="absolute -top-5 -left-5 bg-green-100 p-4 rounded-full">
+          <svg
+            className="w-8 h-8 text-green-600"
+            fill="none"
+            stroke="currentColor"
+            strokeWidth="2"
+            viewBox="0 0 24 24"
+          >
+            <path d="M18 8a6 6 0 11-12 0 6 6 0 0112 0z" />
+            <path d="M12 14v7" />
+            <path d="M9 21h6" />
+          </svg>
+        </div>
+
+        <h3 className="text-xl font-semibold mb-3 mt-4">24/7 Support</h3>
+        <p className="text-gray-600 mb-4">
+          Our team is always available to solve queries and ensure smooth marketing campaigns.
+        </p>
+        <a href="/contact" className="text-blue-600 font-semibold hover:underline">
+          Read More →
+        </a>
+
+        {/* Decorative corner line */}
+        <span className="absolute top-0 right-0 w-10 h-1 bg-gray-300 rounded-l-full"></span>
+        <span className="absolute bottom-0 right-0 w-10 h-1 bg-gray-300 rounded-l-full"></span>
+      </div>
+
+      {/* Card 2 */}
+      <div className="relative bg-white rounded-2xl shadow-lg p-8 flex flex-col items-start hover:shadow-xl transition">
+        <div className="absolute -top-5 -left-5 bg-green-100 p-4 rounded-full">
+          <svg
+            className="w-8 h-8 text-green-600"
+            fill="none"
+            stroke="currentColor"
+            strokeWidth="2"
+            viewBox="0 0 24 24"
+          >
+            <path d="M12 8c2.21 0 4-1.79 4-4S14.21 0 12 0 8 1.79 8 4s1.79 4 4 4z" />
+            <path d="M12 12v8" />
+          </svg>
+        </div>
+
+        <h3 className="text-xl font-semibold mb-3 mt-4">Expert Guidance</h3>
+        <p className="text-gray-600 mb-4">
+          Personalized strategies for every client to maximize social media results.
+        </p>
+        <a href="/services" className="text-blue-600 font-semibold hover:underline">
+          Read More →
+        </a>
+
+        <span className="absolute top-0 right-0 w-10 h-1 bg-gray-300 rounded-l-full"></span>
+        <span className="absolute bottom-0 right-0 w-10 h-1 bg-gray-300 rounded-l-full"></span>
+      </div>
+
+      {/* Card 3 */}
+      <div className="relative bg-white rounded-2xl shadow-lg p-8 flex flex-col items-start hover:shadow-xl transition">
+        <div className="absolute -top-5 -left-5 bg-green-100 p-4 rounded-full">
+          <svg
+            className="w-8 h-8 text-green-600"
+            fill="none"
+            stroke="currentColor"
+            strokeWidth="2"
+            viewBox="0 0 24 24"
+          >
+            <path d="M3 7h18M3 12h18M3 17h18" />
+          </svg>
+        </div>
+
+        <h3 className="text-xl font-semibold mb-3 mt-4">Best Courses</h3>
+        <p className="text-gray-600 mb-4">
+          Learn actionable strategies from real experts to grow your business fast.
+        </p>
+        <a href="/courses" className="text-blue-600 font-semibold hover:underline">
+          Read More →
+        </a>
+
+        <span className="absolute top-0 right-0 w-10 h-1 bg-gray-300 rounded-l-full"></span>
+        <span className="absolute bottom-0 right-0 w-10 h-1 bg-gray-300 rounded-l-full"></span>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
       {/* ================= CTA ================= */}
       <section className="bg-gray-950 text-white py-20">
         <div className="max-w-5xl mx-auto px-6 text-center">

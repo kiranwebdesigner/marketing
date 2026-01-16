@@ -18,6 +18,7 @@ export default function WebsiteDesignPortfolio() {
               width={item.width}
               height={item.height}
               className="w-full h-auto object-cover"
+              quality={90}
             />
 
             <div className="p-5">

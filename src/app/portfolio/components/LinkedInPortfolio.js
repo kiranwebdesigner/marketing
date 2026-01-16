@@ -29,6 +29,7 @@ export default async function LinkedInPortfolio() {
                   fill
                   className="rounded-xl object-cover"
                   priority
+                  quality={90}
                 />
               </div>
             )}

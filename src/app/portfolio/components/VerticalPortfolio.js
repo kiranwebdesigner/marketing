@@ -32,6 +32,7 @@ export default async function VerticalPortfolio() {
                   fill
                   className="rounded-xl object-cover"
                   priority
+                  quality={90}
                 />
               </div>
             )}

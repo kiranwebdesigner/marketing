@@ -46,84 +46,84 @@ export default function HomePage() {
       </section>
 
       {/* ================= SEO SERVICES SECTION ================= */}
-<section className="py-20 bg-gray-50">
-  <div className="max-w-7xl mx-auto px-6">
-    
-    <h2 className="text-3xl md:text-4xl font-bold text-center mb-4 text-black">
-      Professional Social Media Marketing Services
-    </h2>
+      <section className="py-20 bg-gray-50">
+        <div className="max-w-7xl mx-auto px-6">
 
-    <p className="text-center text-gray-700 max-w-3xl mx-auto mb-14">
-      We offer end-to-end social media marketing solutions designed to increase
-      brand visibility, engagement, and ROI across all major platforms.
-    </p>
+          <h2 className="text-3xl md:text-4xl font-bold text-center mb-4 text-black">
+            Professional Social Media Marketing Services
+          </h2>
 
-    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+          <p className="text-center text-gray-700 max-w-3xl mx-auto mb-14">
+            We offer end-to-end social media marketing solutions designed to increase
+            brand visibility, engagement, and ROI across all major platforms.
+          </p>
 
-      {/* HUB PAGE – STRONGEST INTERNAL LINK */}
-      <ServiceCard
-        title="Social Media Marketing"
-        description="Complete social media marketing strategies focused on growth, engagement, and conversions."
-        link="/social-media-marketing"
-        anchor="Social media marketing services"
-        priority
-      />
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
 
-      {/* CLUSTER PAGES */}
-      <ServiceCard
-        title="Social Media Management"
-        description="Professional social media management including content creation, scheduling, and engagement."
-        link="/social-media-management"
-        anchor="social media management services"
-      />
+            {/* HUB PAGE – STRONGEST INTERNAL LINK */}
+            <ServiceCard
+              title="Social Media Marketing"
+              description="Complete social media marketing strategies focused on growth, engagement, and conversions."
+              link="/social-media-marketing"
+              anchor="Social media marketing services"
+              priority
+            />
 
-      <ServiceCard
-        title="Paid Social Media Advertising"
-        description="ROI-focused paid social media advertising campaigns for faster growth and lead generation."
-        link="/social-media-paid-ads"
-        anchor="paid social media advertising services"
-      />
+            {/* CLUSTER PAGES */}
+            <ServiceCard
+              title="Social Media Management"
+              description="Professional social media management including content creation, scheduling, and engagement."
+              link="/social-media-management"
+              anchor="social media management services"
+            />
 
-      <ServiceCard
-        title="Facebook Marketing"
-        description="Targeted Facebook marketing strategies to drive traffic, leads, and sales."
-        link="/facebook-marketing"
-        anchor="Facebook marketing services"
-      />
+            <ServiceCard
+              title="Paid Social Media Advertising"
+              description="ROI-focused paid social media advertising campaigns for faster growth and lead generation."
+              link="/social-media-paid-ads"
+              anchor="paid social media advertising services"
+            />
 
-      <ServiceCard
-        title="Instagram Marketing"
-        description="Instagram growth strategies using reels, stories, and influencer-style content."
-        link="/instagram-marketing"
-        anchor="Instagram marketing services"
-      />
+            <ServiceCard
+              title="Facebook Marketing"
+              description="Targeted Facebook marketing strategies to drive traffic, leads, and sales."
+              link="/facebook-marketing"
+              anchor="Facebook marketing services"
+            />
 
-      <ServiceCard
-        title="LinkedIn Marketing"
-        description="B2B-focused LinkedIn marketing solutions for lead generation and authority building."
-        link="/linkedin-marketing"
-        anchor="LinkedIn marketing services"
-      />
+            <ServiceCard
+              title="Instagram Marketing"
+              description="Instagram growth strategies using reels, stories, and influencer-style content."
+              link="/instagram-marketing"
+              anchor="Instagram marketing services"
+            />
 
-      <ServiceCard
-        title="Pinterest Marketing"
-        description="Pinterest SEO and traffic strategies for long-term organic growth."
-        link="/pinterest-marketing"
-        anchor="Pinterest marketing services"
-      />
+            <ServiceCard
+              title="LinkedIn Marketing"
+              description="B2B-focused LinkedIn marketing solutions for lead generation and authority building."
+              link="/linkedin-marketing"
+              anchor="LinkedIn marketing services"
+            />
 
-      <ServiceCard
-        title="TikTok Marketing"
-        description="TikTok marketing campaigns designed for virality and conversions."
-        link="/tiktok-marketing"
-        anchor="TikTok marketing services"
-      />
-    </div>
-  </div>
-</section>
+            <ServiceCard
+              title="Pinterest Marketing"
+              description="Pinterest SEO and traffic strategies for long-term organic growth."
+              link="/pinterest-marketing"
+              anchor="Pinterest marketing services"
+            />
+
+            <ServiceCard
+              title="TikTok Marketing"
+              description="TikTok marketing campaigns designed for virality and conversions."
+              link="/tiktok-marketing"
+              anchor="TikTok marketing services"
+            />
+          </div>
+        </div>
+      </section>
 
 
-      
+
 
 
 
@@ -181,7 +181,7 @@ function ServiceCard({ title, description, link, anchor, priority }) {
         className="text-blue-600 font-semibold hover:underline"
         aria-label={anchor}
       >
-        {anchor} 
+        {anchor}
       </a>
 
       <span className="absolute top-0 right-0 w-10 h-1 bg-gray-300 rounded-l-full"></span>

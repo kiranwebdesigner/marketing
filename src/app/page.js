@@ -181,7 +181,7 @@ function ServiceCard({ title, description, link, anchor, priority }) {
         className="text-blue-600 font-semibold hover:underline"
         aria-label={anchor}
       >
-        {anchor} →
+        {anchor} 
       </a>
 
       <span className="absolute top-0 right-0 w-10 h-1 bg-gray-300 rounded-l-full"></span>

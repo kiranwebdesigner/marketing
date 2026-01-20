@@ -63,7 +63,7 @@ export default function SocialMediaManagementPage() {
         </h1>
       <p className="text-lg md:text-xl text-white-700 leading-relaxed max-w-3xl mx-auto">
   Social Media Management helps businesses build a strong digital presence, connect with the right audience, and turn engagement into real business results.<br /><br />
-  Many brands struggle with inconsistent posting, low reach, poor engagement, and no clear growth strategy—leading to wasted time and missed opportunities.<br /><br />
+  Many brands struggle with inconsistent posting, low reach, poor engagement and no clear growth strategy—leading to wasted time and missed opportunities.<br /><br />
   With over 4.9 billion active social media users worldwide, businesses that use a structured content and growth strategy consistently outperform those that don’t.<br /><br />
   Our Social Media Management services cover strategy, content creation, post scheduling, reels and short-form videos, captions, hashtag research, audience engagement, analytics, and continuous optimization across platforms like Facebook, Instagram, TikTok, LinkedIn, X (Twitter), Pinterest, and YouTube.<br /><br />
   Whether you’re an eCommerce brand aiming to increase sales, a local business looking to attract nearby customers, a real estate or construction company building trust through visuals, or a startup strengthening brand authority, we manage your social media to drive visibility, credibility, and measurable growth.

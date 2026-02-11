@@ -54,6 +54,11 @@ export default function SocialMediaMarketingForContractorsPage() {
           <strong> lead generation channels</strong>, boosting engagement and ROI.
         </p>
       </section>
+        
+
+
+      
+    
 
       {/* Dynamic Content */}
       <section className="grid gap-12">
@@ -77,9 +82,9 @@ export default function SocialMediaMarketingForContractorsPage() {
             )}
             <div className="flex-1 text-center md:text-left">
               {item.heading && (
-                <h2 className="text-2xl font-semibold text-gray-900 mb-4">
+                <h3 className="text-2xl font-semibold text-gray-900 mb-4">
                   {item.heading}
-                </h2>
+                </h3>
               )}
               {item.paragraph && (
                 <p

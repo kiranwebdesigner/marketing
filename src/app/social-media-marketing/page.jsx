@@ -3,23 +3,26 @@ import socialMediaData from "../data/social-media-marketing.json";
 import Link from "next/link";
 
 
+
+
+
 const BASE_URL = "https://socialmediamarketingcontentads.com";
 
 export const metadata = {
   title: "Social Media Marketing Services | Strategy, Ads & Growth",
   description:
-    "Full-service social media marketing services including strategy, content creation, paid ads, audience research, analytics, and ROI optimization across all major platforms.",
+    "Full-service social media marketing services including strategy, content creation, paid ads, audience research, analytics and ROI optimization across all major platforms.",
 
   alternates: {
     canonical: `${BASE_URL}/social-media-marketing`,
   },
 
-openGraph: {
-  url: `${BASE_URL}/social-media-marketing`,
-  title: "Social Media Marketing Services | Strategy, Ads & Growth",
-  description:
-    "Full-service social media marketing services including strategy, content creation, paid ads, audience research, analytics, and ROI optimization across all major platforms.",
-},
+  openGraph: {
+    url: `${BASE_URL}/social-media-marketing`,
+    title: "Social Media Marketing Services | Strategy, Ads & Growth",
+    description:
+      "Full-service social media marketing services including strategy, content creation, paid ads, audience research, analytics and ROI optimization across all major platforms.",
+  },
 
 
 
@@ -39,14 +42,14 @@ export default function SocialMediaMarketingPage() {
             Social Media Marketing Services
           </h1>
 
-     <p className="text-lg md:text-xl text-slate-300 leading-relaxed">
-  Strategic <strong>social media marketing</strong> helps businesses increase brand awareness, attract high-intent audiences, boost engagement, and convert social traffic into real sales and qualified leads.<br /><br />
-  Many brands fail on social media due to poor content strategy, inconsistent posting, low organic reach, weak targeting in paid campaigns, and the absence of proper tracking—resulting in wasted budget and low ROI.<br /><br />
-  With over <strong>5 billion active social media users worldwide</strong>, and more than <strong>75% of buyers influenced by social content</strong>, businesses using structured organic promotion and data-driven paid advertising significantly outperform competitors.<br /><br />
-  Our end-to-end <Link href="/social-media-management"><strong>social media marketing services</strong></Link> include profile setup and integration, content strategy, organic content promotion, paid social media advertising, funnel-based campaign creation, creative testing, and advanced analytical tracking to measure growth, engagement, and conversions.<br /><br />
-  We drive results across <Link href="/facebook-marketing"><strong>Facebook marketing</strong></Link>, <Link href="/instagram-marketing"><strong>Instagram marketing</strong></Link>, <Link href="/linkedin-marketing"><strong>LinkedIn marketing</strong></Link>, <Link href="/tiktok-marketing"><strong>TikTok marketing</strong></Link>, <Link href="/pinterest-marketing"><strong>Pinterest marketing</strong></Link>, and YouTube—helping eCommerce brands scale sales, local businesses generate consistent leads, real estate and construction companies build trust, and B2B brands establish long-term authority.<br /><br />
-  For faster growth and immediate visibility, our <Link href="/social-media-paid-ads"><strong>paid social media marketing solutions</strong></Link> focus on precision targeting, conversion-optimized creatives, retargeting, and performance-driven optimization.
-</p>
+          <p className="text-lg md:text-xl text-slate-300 leading-relaxed">
+            Strategic <strong>social media marketing</strong> helps businesses increase brand awareness, attract high-intent audiences, boost engagement, and convert social traffic into real sales and qualified leads.<br /><br />
+            Many brands fail on social media due to poor content strategy, inconsistent posting, low organic reach, weak targeting in paid campaigns, and the absence of proper tracking—resulting in wasted budget and low ROI.<br /><br />
+            With over <strong>5 billion active social media users worldwide</strong>, and more than <strong>75% of buyers influenced by social content</strong>, businesses using structured organic promotion and data-driven paid advertising significantly outperform competitors.<br /><br />
+            Our end-to-end <Link href="/social-media-management"><strong>social media marketing services</strong></Link> include profile setup and integration, content strategy, organic content promotion, paid social media advertising, funnel-based campaign creation, creative testing, and advanced analytical tracking to measure growth, engagement, and conversions.<br /><br />
+            We drive results across <Link href="/facebook-marketing"><strong>Facebook marketing</strong></Link>, <Link href="/instagram-marketing"><strong>Instagram marketing</strong></Link>, <Link href="/linkedin-marketing"><strong>LinkedIn marketing</strong></Link>, <Link href="/tiktok-marketing"><strong>TikTok marketing</strong></Link>, <Link href="/pinterest-marketing"><strong>Pinterest marketing</strong></Link>, and YouTube—helping eCommerce brands scale sales, local businesses generate consistent leads, real estate and construction companies build trust, and B2B brands establish long-term authority.<br /><br />
+            For faster growth and immediate visibility, our <Link href="/social-media-paid-ads"><strong>paid social media marketing solutions</strong></Link> focus on precision targeting, conversion-optimized creatives, retargeting, and performance-driven optimization.
+          </p>
 
 
         </div>
@@ -105,6 +108,11 @@ export default function SocialMediaMarketingPage() {
 
         </div>
       </section>
+
+
+       
     </main>
+
+    
   );
 }

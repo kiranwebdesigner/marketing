@@ -19,7 +19,7 @@ export default async function LinkedInPortfolio() {
         {linkedInItems.map((item, index) => (
           <div
             key={index}
-            className="bg-white rounded-2xl shadow-md hover:shadow-xl transition p-4 flex flex-col"
+            className="bg-white rounded-2xl shadow-md hover:shadow-xl transition p-4 flex flex-col bg-gradient-to-r from-[#050000] to-[#1da1f2] text-white border border-white"
           >
             {item.image && (
               <div className="relative w-full" style={{ paddingTop: `${(item.height / item.width) * 100}%` }}>

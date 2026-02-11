@@ -10,7 +10,7 @@ export default async function DesignPortfolio() {
   const designPortfolio = portfolioData.designPortfolio || [];
 
   return (
-    <section className="max-w-7xl mx-auto px-6 py-16">
+    <section className="max-w-7xl mx-auto px-6 py-16  bg-gradient-to-r from-[#050000] to-[#1da1f2] text-white border border-white">
       {/* Section Heading */}
       <h2 className="text-3xl md:text-4xl font-bold mb-8 text-center">
         Design Portfolio
@@ -20,7 +20,7 @@ export default async function DesignPortfolio() {
       </p>
 
       {/* Portfolio Grid */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 bg-gradient-to-r from-[#050000] to-[#1da1f2] text-white border border-white ">
         {designPortfolio.map((item, index) => (
           <div
             key={index}

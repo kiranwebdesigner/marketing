@@ -8,10 +8,10 @@ export default async function LinkedInPortfolio() {
 
   return (
     <section className="max-w-7xl mx-auto px-4 py-16">
-      <h2 className="text-3xl font-bold mb-6 text-black">
+      <h2 className="text-3xl font-bold mb-6 text-white">
         LinkedIn Portfolio
       </h2>
-      <p className="text-lg text-gray-700 mb-10 max-w-3xl">
+      <p className="text-lg text-white-700 mb-10 max-w-3xl">
         Showcase of professional LinkedIn marketing graphics designed for authors, designers, filmmakers, and UI/UX professionals to increase engagement and visibility.
       </p>
 
@@ -33,8 +33,8 @@ export default async function LinkedInPortfolio() {
                 />
               </div>
             )}
-            <h3 className="text-xl font-semibold mt-4 text-black">{item.heading}</h3>
-            <p className="text-gray-600 mt-2">{item.paragraph}</p>
+            <h3 className="text-xl font-semibold mt-4 text-white">{item.heading}</h3>
+            <p className="text-white-600 mt-2">{item.paragraph}</p>
           </div>
         ))}
       </div>

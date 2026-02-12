@@ -9,7 +9,7 @@ export default async function SocialMediaPortfolio() {
 
   return (
     <section className="max-w-7xl mx-auto px-6 py-16">
-      <h2 className="text-3xl md:text-4xl font-bold text-black mb-10 text-center">
+      <h2 className="text-3xl md:text-4xl font-bold text-white mb-10 text-center">
         Social Media Content Portfolio
       </h2>
 

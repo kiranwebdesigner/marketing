@@ -31,10 +31,10 @@ export default function AuthorEAT() {
       </div>
 
       {/* Author Info */}
-      <h2 className="text-3xl font-bold mt-6 text-black">
+      <h2 className="text-3xl font-bold mt-6 text-white">
         Kiran Anwar
       </h2>
-      <p className="text-lg text-black/80 mt-2 mb-4">
+      <p className="text-lg text-white/80 mt-2 mb-4">
         Digital Marketing Expert & Strategist
       </p>
 
@@ -59,7 +59,7 @@ export default function AuthorEAT() {
       </div>
 
       {/* Author Bio */}
-      <p className="mt-6 text-black/70 leading-relaxed text-base md:text-lg">
+      <p className="mt-6 text-white/70 leading-relaxed text-base md:text-lg">
         Kiran Anwar is a professional digital marketing strategist specializing in social media management, Facebook ads, SEO, content creation, and website design. With years of experience helping brands grow online, Kiran ensures high-quality, results-driven strategies that build authority, trust, and engagement.
       </p>
 

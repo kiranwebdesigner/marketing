@@ -1,6 +1,7 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Footer from "@/components/Footer";
+import AuthorEAT from "@/components/AuthorEAT";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -48,7 +49,12 @@ export default function RootLayout({ children }) {
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         {children}
-          <Footer />
+          
+          {/* Author / E-A-T Component */}
+      <section className="max-w-7xl mx-auto px-4 py-10">
+        <AuthorEAT />
+      </section>
+      <Footer />
       </body>
     </html>
   );

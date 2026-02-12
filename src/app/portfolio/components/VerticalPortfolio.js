@@ -8,10 +8,10 @@ export default async function VerticalPortfolio() {
 
   return (
     <section className="max-w-7xl mx-auto px-4 py-16">
-      <h2 className="text-3xl font-bold mb-6 text-black">
+      <h2 className="text-3xl font-bold mb-6 text-white">
          Social Media Content
       </h2>
-      <p className="text-lg text-gray-700 mb-10 max-w-3xl">
+      <p className="text-lg text-white-700 mb-10 max-w-3xl">
         High-quality social media content designed for car showrooms, real estate companies, and tech brands to engage audiences on mobile-first platforms.
       </p>
 

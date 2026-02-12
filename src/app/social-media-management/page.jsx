@@ -56,9 +56,9 @@ export default function SocialMediaManagementPage() {
   };
 
   return (
-    <main className="max-w-6xl mx-auto px-6 py-16 mt-24 ">
+    <main className="max-w-6xl mx-auto px-6 py-16 mt-24">
       {/* Hero */}
-      <section className="text-center mb-16 bg-gradient-to-r from-[#050000] to-[#1da1f2] text-white ">
+      <section className="text-center mb-16 bg-gradient-to-r from-[#050000] to-[#1da1f2] text-white">
         <h1 className="text-4xl md:text-5xl font-extrabold mb-6">
           Social Media Management Services
         </h1>
@@ -100,7 +100,7 @@ export default function SocialMediaManagementPage() {
         {data.map((item, index) => (
           <article
             key={index}
-            className=" rounded-2xl shadow-md hover:shadow-xl transition p-6 md:p-8 flex flex-col md:flex-row gap-8 items-center bg-gradient-to-r from-[#050000] to-[#1da1f2] text-white border border-white "
+            className=" rounded-2xl shadow-md hover:shadow-xl transition p-6 md:p-8 flex flex-col md:flex-row gap-8 items-center bg-gradient-to-r from-[#050000] to-[#1da1f2] text-white border border-white"
           >
             {item.image && (
               <Image

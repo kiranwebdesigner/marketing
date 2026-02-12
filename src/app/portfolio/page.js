@@ -6,7 +6,7 @@ import DesignPortfolio from "./components/DesignPortfolio";
 import LinkedInPortfolio from "./components/LinkedInPortfolio";
 import VerticalPortfolio from "./components/VerticalPortfolio";
 import WebsiteDesignPortfolio from "./components/WebsiteDesignPortfolio";
-import AuthorEAT from "./components/AuthorEAT";
+
 
 
 const BASE_URL = "https://socialmediamarketingcontentads.com";
@@ -43,14 +43,14 @@ export const metadata = {
 
 export default function PortfolioPage() {
   return (
-    <main className="w-full bg-white pb-20 text-black">
+    <main className="w-full bg-black pb-20 text-white">
 
       {/* Page Heading */}
       <header className="max-w-7xl mx-auto px-4 pt-16 pb-10 text-center">
-        <h1 className="text-4xl md:text-5xl font-bold text-black mb-4">
+        <h1 className="text-4xl md:text-5xl font-bold text-white mb-4">
           My Professional Portfolio
         </h1>
-        <p className="text-lg md:text-xl text-black max-w-3xl mx-auto leading-relaxed">
+        <p className="text-lg md:text-xl text-white max-w-3xl mx-auto leading-relaxed">
           Explore my complete digital marketing work including Facebook Ads campaigns,
           high-performing social media content, creative design projects,  website designing.
         </p>
@@ -90,10 +90,6 @@ export default function PortfolioPage() {
         <WebsiteDesignPortfolio />
       </section>
 
-      {/* Author / E-A-T Component */}
-      <section className="max-w-7xl mx-auto px-4 py-10">
-        <AuthorEAT />
-      </section>
 
 
 

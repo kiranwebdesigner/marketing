@@ -12,10 +12,10 @@ export default async function DesignPortfolio() {
   return (
     <section className="max-w-7xl mx-auto px-6 py-16  bg-gradient-to-r from-[#050000] to-[#1da1f2] text-white border border-white">
       {/* Section Heading */}
-      <h2 className="text-3xl md:text-4xl font-bold mb-8 text-center">
+      <h2 className="text-3xl md:text-4xl font-bold mb-8 text-center text-white/80">
         Design Portfolio
       </h2>
-      <p className="text-center text-black/80 mb-12 max-w-3xl mx-auto">
+      <p className="text-center text-white/80 mb-12 max-w-3xl mx-auto">
         Explore our creative design projects, including social media marketing visuals, branding content, and client campaigns.
       </p>
 
@@ -41,12 +41,12 @@ export default async function DesignPortfolio() {
             {/* Text */}
             <div className="mt-4">
               {item.heading && (
-                <h3 className="text-xl font-semibold text-black mb-2">
+                <h3 className="text-xl font-semibold text-white mb-2">
                   {item.heading}
                 </h3>
               )}
               {item.paragraph && (
-                <p className="text-black/80 leading-relaxed">
+                <p className="text-black/80 leading-relaxed text-white">
                   {item.paragraph}
                 </p>
               )}

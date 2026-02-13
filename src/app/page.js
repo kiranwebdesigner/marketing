@@ -28,10 +28,10 @@ export default function HomePage() {
 
           <div className="flex flex-col sm:flex-row justify-center gap-4">
             <Link
-              href="/social-media-marketing"
+              href="https://www.fiverr.com/s/2KN2pje"
               className="bg-white text-gray-900 px-8 py-3 rounded-md font-semibold"
             >
-              Social Media Marketing
+              Hire Social Media Marketing Manager
             </Link>
 
             <Link

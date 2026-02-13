@@ -17,7 +17,7 @@ export default async function FacebookPortfolio() {
         {facebookAds.map((item, index) => (
           <div
             key={index}
-            className="bg-white rounded-2xl shadow-md hover:shadow-xl transition overflow-hidden bg-gradient-to-r from-[#050000] to-[#1da1f2] text-white border border-white"
+            className="bg-white rounded-2xl shadow-md hover:shadow-xl transition overflow-hidden bg-white text-black border border-white"
           >
             <div className="relative w-full" style={{ aspectRatio: `${item.width} / ${item.height}` }}>
               <Image
@@ -31,8 +31,8 @@ export default async function FacebookPortfolio() {
             </div>
 
             <div className="p-6">
-              <h3 className="text-xl font-semibold text-white mb-2">{item.heading}</h3>
-              <p className="text-black/80 leading-relaxed text-white">{item.paragraph}</p>
+              <h3 className="text-xl font-semibold text-black mb-2">{item.heading}</h3>
+              <p className="text-black/80 leading-relaxed text-black">{item.paragraph}</p>
             </div>
           </div>
         ))}

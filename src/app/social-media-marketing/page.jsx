@@ -1,6 +1,8 @@
 import Image from "next/image";
 import socialMediaData from "../data/social-media-marketing.json";
 import Link from "next/link";
+import Script from "next/script";
+
 
 
 
@@ -54,6 +56,162 @@ export default function SocialMediaMarketingPage() {
 
         </div>
       </section>
+
+      {/* SEO Friendly FAQ Section */}
+<section className="max-w-4xl mx-auto px-4 py-16">
+
+
+  <div className="space-y-6 text-white-700 leading-relaxed">
+
+    <div>
+      <h3 className="font-semibold text-lg text-white">
+        What is social media marketing and how does it help businesses?
+      </h3>
+      <p>
+        Social media marketing is a digital strategy that uses platforms like Facebook, Instagram, and LinkedIn to promote products and services. It helps businesses increase brand awareness, generate leads, drive website traffic, and boost sales.
+      </p>
+    </div>
+
+    <div>
+      <h3 className="font-semibold text-lg text-black">
+        Which social media platforms are best for business marketing?
+      </h3>
+      <p>
+        The best platform depends on your target audience. Facebook and Instagram are ideal for ecommerce and local businesses, LinkedIn works best for B2B marketing, and TikTok is effective for brand awareness.
+      </p>
+    </div>
+
+    <div>
+      <h3 className="font-semibold text-lg text-black">
+        How much does social media marketing cost?
+      </h3>
+      <p>
+        The cost depends on business goals and advertising budget. Most businesses invest in monthly management services along with a paid advertising budget for optimal results.
+      </p>
+    </div>
+
+    <div>
+      <h3 className="font-semibold text-lg text-black">
+        How long does it take to see results?
+      </h3>
+      <p>
+        Organic growth typically takes 2–3 months. Paid advertising campaigns like Facebook Ads can generate leads within days when properly optimized.
+      </p>
+    </div>
+
+    <div>
+      <h3 className="font-semibold text-lg text-black">
+        Can social media marketing generate real leads and sales?
+      </h3>
+      <p>
+        Yes. With proper targeting, engaging content, and conversion-focused strategy, social media marketing can consistently generate qualified leads and increase sales.
+      </p>
+    </div>
+
+  </div>
+
+  {/* FAQ Schema */}
+  <Script type="application/ld+json" id="faq-schema">
+    {JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is social media marketing and how does it help businesses?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Social media marketing is a digital strategy that uses platforms like Facebook, Instagram, and LinkedIn to promote products and services. It helps businesses increase brand awareness, generate leads, drive website traffic, and boost sales."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which social media platforms are best for business marketing?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Facebook and Instagram are ideal for ecommerce and local businesses, LinkedIn works best for B2B marketing, and TikTok is effective for brand awareness."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does social media marketing cost?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The cost depends on business goals and advertising budget. Most businesses invest in monthly management services along with a paid advertising budget."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long does it take to see results?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Organic growth typically takes 2–3 months. Paid advertising campaigns like Facebook Ads can generate leads within days when optimized properly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can social media marketing generate real leads and sales?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. With proper targeting, engaging content, and a conversion-focused strategy, social media marketing can generate qualified leads and increase sales."
+          }
+        }
+      ]
+    })}
+  </Script>
+</section>
+
+  {/* FAQ Schema */}
+  <Script type="application/ld+json" id="faq-schema">
+    {JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is social media marketing and how does it help businesses?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Social media marketing is a digital strategy that uses platforms like Facebook, Instagram, and LinkedIn to promote products and services. It helps businesses increase brand awareness, generate leads, drive website traffic, and boost sales."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which social media platforms are best for business marketing?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Facebook and Instagram are ideal for ecommerce and local businesses, LinkedIn works best for B2B marketing, and TikTok is effective for brand awareness."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does social media marketing cost?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The cost depends on business goals and advertising budget. Most businesses invest in monthly management services along with a paid advertising budget."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long does it take to see results?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Organic growth typically takes 2–3 months. Paid advertising campaigns like Facebook Ads can generate leads within days when optimized properly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can social media marketing generate real leads and sales?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. With proper targeting, engaging content, and a conversion-focused strategy, social media marketing can generate qualified leads and increase sales."
+          }
+        }
+      ]
+    })}
+  </Script>
+
+
 
       {/* ================= CONTENT ================= */}
       <section className="bg-slate-50">
@@ -116,3 +274,5 @@ export default function SocialMediaMarketingPage() {
     
   );
 }
+
+  

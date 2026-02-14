@@ -91,9 +91,9 @@ export default function PinterestMarketingPage() {
             />
 
             {/* Section Heading */}
-            <h2 className="text-xl font-semibold mt-5 text-black">
+            <h3 className="text-xl font-semibold mt-5 text-black">
               {item.heading}
-            </h2>
+            </h3>
 
             {/* SEO Content */}
             <p

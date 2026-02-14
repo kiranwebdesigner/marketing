@@ -30,7 +30,8 @@ export const metadata = {
   openGraph: {
     title: "Social Media Marketing for Contractors | Lead Generation & Growth",
     description:
-      "Boost leads and ROI for contractors with expert social media marketing across Facebook, Instagram, LinkedIn, and YouTube.",
+    "Boost your contracting business with expert social media marketing. Manage profiles, organic & paid campaigns, and generate more local leads and projects.",
+
     url: `${BASE_URL}/social-media-marketing-for-contractors`,
     type: "website",
   },

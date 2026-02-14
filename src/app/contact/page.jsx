@@ -44,10 +44,7 @@ const ContactPage = () => {
 
       <main className="max-w-4xl mx-auto p-6">
         <h1 className="text-3xl font-bold mb-4">Contact Us</h1>
-        <p className="text-lg md:text-xl text-slate-300 leading-relaxed">
-  Have questions or ready to grow your business online? Our team at <strong>SocialMediaMarketingContentAds.com</strong> is here to help. Whether you want to discuss <Link href="/social-media-management"><strong>social media management</strong></Link>, <Link href="/social-media-paid-ads"><strong>paid social campaigns</strong></Link>, or platform-specific strategies for <Link href="/facebook-marketing"><strong>Facebook</strong></Link>, <Link href="/instagram-marketing"><strong>Instagram</strong></Link>, <Link href="/linkedin-marketing"><strong>LinkedIn</strong></Link>, <Link href="/tiktok-marketing"><strong>TikTok</strong></Link>, or <Link href="/pinterest-marketing"><strong>Pinterest</strong></Link>, we are ready to provide personalized solutions.<br /><br />
-  Fill out the form, send us a message, or schedule a consultation today, and let’s create a strategy that drives engagement, grows your audience, and maximizes your social media ROI. Your success is our priority.
-</p>
+
 
 
         <section className="mb-8">

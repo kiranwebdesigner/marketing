@@ -73,7 +73,7 @@ export default function SocialMediaMarketingPage() {
     </div>
 
     <div>
-      <h3 className="font-semibold text-lg text-black">
+      <h3 className="font-semibold text-lg text-white">
         Which social media platforms are best for business marketing?
       </h3>
       <p>
@@ -82,7 +82,7 @@ export default function SocialMediaMarketingPage() {
     </div>
 
     <div>
-      <h3 className="font-semibold text-lg text-black">
+      <h3 className="font-semibold text-lg text-white">
         How much does social media marketing cost?
       </h3>
       <p>
@@ -91,7 +91,7 @@ export default function SocialMediaMarketingPage() {
     </div>
 
     <div>
-      <h3 className="font-semibold text-lg text-black">
+      <h3 className="font-semibold text-lg text-white">
         How long does it take to see results?
       </h3>
       <p>
@@ -100,7 +100,7 @@ export default function SocialMediaMarketingPage() {
     </div>
 
     <div>
-      <h3 className="font-semibold text-lg text-black">
+      <h3 className="font-semibold text-lg text-white">
         Can social media marketing generate real leads and sales?
       </h3>
       <p>

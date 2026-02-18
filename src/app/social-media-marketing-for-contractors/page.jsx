@@ -46,7 +46,7 @@ export default function SocialMediaMarketingForContractorsPage() {
         <h1 className="text-4xl md:text-5xl font-extrabold text-white mb-6">
           Social Media Marketing for Contractors
         </h1>
-        <p className="text-lg md:text-xl text-white-100 leading-relaxed max-w-3xl mx-auto">
+        
           <p className="text-lg md:text-xl text-slate-300 leading-relaxed">
             Results-driven <strong>social media marketing for contractors</strong> helps construction, renovation, and service contractors grow their local visibility, attract high-quality leads, and convert social followers into paying clients.<br /><br />
             Many contractors struggle with low engagement, inconsistent posting, outdated profiles, minimal online reputation, and ineffective advertising—resulting in wasted time, missed projects, and stagnant growth.<br /><br />
@@ -55,10 +55,11 @@ export default function SocialMediaMarketingForContractorsPage() {
             We optimize your presence across <Link href="/facebook-marketing"><strong>Facebook marketing</strong></Link>, <Link href="/instagram-marketing"><strong>Instagram marketing</strong></Link>, <Link href="/linkedin-marketing"><strong>LinkedIn marketing</strong></Link>, <Link href="/tiktok-marketing"><strong>TikTok marketing</strong></Link>, and <Link href="/pinterest-marketing"><strong>Pinterest marketing</strong></Link>, and run <Link href="/social-media-paid-ads"><strong>paid social campaigns</strong></Link> to reach local clients faster. This approach helps contractors showcase completed projects, share testimonials, highlight services, and strengthen trust in their brand—turning social media into a consistent source of leads and sales.
           </p>
 
-        </p>
+        
       </section>
 
 {/* platform content Content */}
+<section className="grid gap-12">
 {/* Facebook Marketing for Contractors */}
 <h3 className="text-4xl md:text-5xl font-extrabold text-white mb-6">
           Facebook Marketing for Contractors
@@ -118,6 +119,7 @@ export default function SocialMediaMarketingForContractorsPage() {
   Contractors can promote services, special offers, or seasonal projects to maximize ROI.  
   Analytics and tracking allow continuous optimization for cost-effective results.
 </p>
+</section>
 
 
 

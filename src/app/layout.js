@@ -21,6 +21,7 @@ const geistMono = Geist_Mono({
 });
 
 // SEO metadata
+// SEO metadata
 export const metadata = {
   title: "Social Media Marketing Services | Boost Engagement & Growth",
   description:
@@ -31,6 +32,9 @@ export const metadata = {
   verification: {
     google: "9k1pqDPuk816geQchl9p6naxbK-r_Cti37bFPsudGcQ",
   },
+  other: {
+    "p:domain_verify": "d0cf7ac9acd57796343013324b6f24a8",
+  },
   openGraph: {
     title: "Social Media Marketing Services | Boost Engagement & Growth",
     description:
@@ -39,6 +43,7 @@ export const metadata = {
     type: "website",
   },
 };
+
 
 export default function RootLayout({ children }) {
   return (

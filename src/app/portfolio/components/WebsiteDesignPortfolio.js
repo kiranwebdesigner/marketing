@@ -1,6 +1,7 @@
 // Server Component
 import Image from "next/image";
-import portfolioData from "@/app/data/portfolio.json";
+import portfolioData from "../../data/portfolio.json";
+
 
 export default function WebsiteDesignPortfolio() {
   const designs = portfolioData.websiteDesign || [];

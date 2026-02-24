@@ -257,18 +257,15 @@ export default function HomePage() {
   dangerouslySetInnerHTML={{
     __html: JSON.stringify({
       "@context": "https://schema.org",
-      "@type": "Organization",
+      "@type": "WebSite",
       "name": "Social Media Marketing Content Ads",
       "url": "https://socialmediamarketingcontentads.com/",
-      "logo": "https://socialmediamarketingcontentads.com/logo.png",
-      "description":
-        "Professional social media marketing services including management, paid advertising, content creation, and analytics tracking for contractors, eCommerce brands, and businesses.",
-      "sameAs": [
-        "https://www.linkedin.com/company/social-media-marketing-content-ads/",
-        "https://www.instagram.com/socialmediamarketingcontent/",
-        "https://www.youtube.com/@SocialmediamarketingContentads",
-        "https://www.facebook.com/profile.php?id=61584561792932&sk=mentions"
-      ]
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target":
+          "https://socialmediamarketingcontentads.com/?s={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
     }),
   }}
 />

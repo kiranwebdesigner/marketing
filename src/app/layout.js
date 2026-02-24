@@ -54,6 +54,29 @@ export default function RootLayout({ children }) {
         {/* Main page content */}
         {children}
 
+
+         {/* ===== Global Organization Structured Data ===== */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Organization",
+              "name": "Social Media Marketing Content Ads",
+              "url": "https://socialmediamarketingcontentads.com/",
+              "logo": "https://socialmediamarketingcontentads.com/logo.png",
+              "description":
+                "Professional social media marketing services including management, paid advertising, content creation, and analytics tracking.",
+              "sameAs": [
+                "https://www.linkedin.com/company/social-media-marketing-content-ads/",
+                "https://www.instagram.com/socialmediamarketingcontent/",
+                "https://www.youtube.com/@SocialmediamarketingContentads",
+                "https://www.facebook.com/profile.php?id=61584561792932&sk=mentions"
+              ]
+            }),
+          }}
+        />
+
         {/* Call To Action Section */}
         <section className="max-w-7xl mx-auto px-4 py-16">
           <CallToAction />
